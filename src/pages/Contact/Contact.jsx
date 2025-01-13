@@ -53,11 +53,11 @@ const Contact = () => {
                   <div className="d-block justify-content-between">
                     <a type="button" className="btn btn-light me-2 btn-sm">
                       <i className="bi bi-phone me-1"></i>
-                      +12 3456 789
+                      +91 999999999
                     </a>
                     <a type="button" className="btn btn-light me-2 btn-sm">
                       <i className="bi bi-telephone me-1"></i>
-                      +12 3456 789
+                      +91 9898989898
                     </a>
                   </div>
                 </Card.Body>
@@ -80,7 +80,7 @@ const Contact = () => {
                   <div className="d-block justify-content-between">
                     <a type="button" className="btn btn-light me-2 btn-sm">
                       <i className="bi bi-envelope me-2"></i>
-                      demo@gmail.com
+                      Crazyguys@gmail.com
                     </a>
                   </div>
                 </Card.Body>

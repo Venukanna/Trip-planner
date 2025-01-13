@@ -227,8 +227,9 @@ const TourDetails = () => {
                           <h5 className="h6"> ({tourDetails.reviews})</h5>
                         </div>
 
+                      
                         <NavLink to="/booking" className="primaryBtn w-100 d-flex justify-content-center fw-bold">
-                          Book Now
+                         Book Now
                         </NavLink>
                       </Card.Body>
                     </Card>

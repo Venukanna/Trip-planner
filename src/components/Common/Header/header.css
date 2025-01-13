@@ -109,3 +109,19 @@ header .navbar .offcanvas-body .dropdown-menu .dropdown-item {
 
 
 }
+
+.profile-image-container {
+  display: flex;
+  align-items: center;
+  margin-right: 100px; /* Adjust spacing as needed */
+  margin-left: -110px;
+}
+
+.profile-image {
+  width: 1.5cm; /* 1.5cm width */
+  height: 1.5cm; /* 1.5cm height */
+  border-radius: 50%; /* Circular format */
+  object-fit: cover; /* Ensures the image fits properly */
+  border: 2px solid #fff; /* Optional border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}

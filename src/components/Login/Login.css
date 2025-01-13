@@ -1,0 +1,60 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.login_section {
+  height: 100vh;
+  background: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login_Box {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.small_text {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.google, .fb {
+  cursor: pointer;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #ced4da;
+}
+
+.or {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.login_form .form-control {
+  border-radius: 5px;
+}
+
+#eye-icon {
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}

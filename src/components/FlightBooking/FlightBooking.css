@@ -1,0 +1,120 @@
+/* FlightBooking.css */
+
+/* General Styles */
+.flightbooking-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+  }
+  
+  .flightbooking-form-warp {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .form-title h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Form Styles */
+  .flightbooking-form-warp .form-control {
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .flightbooking-form-warp .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .flightbooking-form-warp .form-label {
+    font-weight: 500;
+    color: #495057;
+    margin-bottom: 8px;
+  }
+  
+  /* Date Picker Styles */
+  .react-datepicker-wrapper {
+    width: 100%;
+  }
+  
+  .react-datepicker__input-container input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    font-size: 14px;
+  }
+  
+  .react-datepicker__input-container input:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  /* Button Styles */
+  .primaryBtn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .primaryBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Flight Summary Card Styles */
+  .flight-summary {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flight-summary .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    padding: 15px;
+  }
+  
+  .flight-summary .card-header h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+  }
+  
+  .flight-summary .list-group-item {
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #495057;
+  }
+  
+  .flight-summary .list-group-item strong {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .flightbooking-form-warp {
+      margin-bottom: 20px;
+    }
+  
+    .flight-summary {
+      margin-top: 20px;
+    }
+  }

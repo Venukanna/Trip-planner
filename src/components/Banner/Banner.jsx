@@ -10,7 +10,8 @@ const Banner = () => {
       <section className="slider">
         <Carousel variant="dark">
           <Carousel.Item>
-            <img src={sliderImg} className="d-block w-100" alt="First slide" />
+            <img src={sliderImg} className="d-block w-100" alt="First slide" />     
+            {/* https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600 */}
             <Carousel.Caption>
               <div className="slider_des">
                 <h5 className="heading">

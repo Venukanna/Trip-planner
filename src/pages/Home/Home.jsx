@@ -169,6 +169,53 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+      {/* <section className="login_section">
+  <Container>
+    <Row className="justify-content-center">
+      <Col md="6" sm="10">
+        <div className="login_box">
+          <div className="main_heading text-center">
+            <h1>Login</h1>
+            <p>Please enter your credentials to log in</p>
+          </div>
+          <form>
+            <div className="form-group mb-3">
+              <label htmlFor="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                className="form-control"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div className="form-group mb-3">
+              <label htmlFor="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                className="form-control"
+                placeholder="Enter your password"
+                required
+              />
+            </div>
+            <div className="form-group text-center">
+              <button type="submit" className="primary_btn">
+                Login
+              </button>
+            </div>
+          </form>
+          <div className="text-center mt-3">
+            <p>
+              Don't have an account? <a href="/register">Sign Up</a>
+            </p>
+          </div>
+        </div>
+       </Col>
+      </Row>
+     </Container>
+  </section> */}
+
     </>
   );
 };
