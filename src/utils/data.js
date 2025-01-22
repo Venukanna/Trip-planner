@@ -7,6 +7,7 @@ import tour8 from "../assets/images/tour/nah-trang.png";
 import tour9 from "../assets/images/tour/phuket.png";
 import tour10 from "../assets/images/tour/paris.png";
 import tour11 from "../assets/images/tour/malaysia.png";
+// images
 
 // populars img
 import Anchorage from "../assets/images/popular/Anchorage To La Paz.jpg";
